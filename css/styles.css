@@ -1,4 +1,4 @@
-/* Paleta de colores
+
 
 .color1 {color: #e317d8;}
 .color2 {color: #e63496;}
@@ -6,15 +6,14 @@
 .color4 {color: #f4ec96;}
 .color5 {color: #f8efc1;}
 .color6 {color: #533363;}
-*/
+
 
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Parisienne&display=swap');
 
-* {
-    background-color: #f8efc1;
-}
 
 header{
+    background-color: #f8efc1;
+    padding: 20px;
     display: flex;
     text-align: center;
 }
@@ -33,16 +32,30 @@ ul{
     text-align: center;
 }
 
+nav {
+    background-color: #f8efc1;
+    padding: 18px;
+}
+
+section {
+    background-color: #f8efc1;
+    padding: 18px;
+}
+
 .navbar {
     display: inline;
     padding: 12px;
+    margin: 5px;
     color: #533363;
     font-family: "Arima", system-ui;
-    font-size: 24px;
+    font-size: 18px;
+    background-color: #f2ae82;
+    border-radius: 5px;
 }
 
 a {
     text-decoration: none;
+    background-color: #f2ae82;
 }
 
 footer{
@@ -50,10 +63,27 @@ footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #f2ae82, #e63496);
 }
 
-footer a{
-    padding-left: 2%;
-    height: 36px;
-    width: 36px;
+.redes {
+    align-items: center;
+    display: flex;
+    padding-right: 10px;
 }
+
+#productos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.caja{
+    width: 400px;
+    height: 300px;
+    margin: 5px;
+    border: 1px solid black;
+    background-color: blue;
+    border-radius: 4px;
+}
+
