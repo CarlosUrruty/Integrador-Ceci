@@ -1,0 +1,59 @@
+/* Paleta de colores
+
+.color1 {color: #e317d8;}
+.color2 {color: #e63496;}
+.color3 {color: #f2ae82;}
+.color4 {color: #f4ec96;}
+.color5 {color: #f8efc1;}
+.color6 {color: #533363;}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Parisienne&display=swap');
+
+* {
+    background-color: #f8efc1;
+}
+
+header{
+    display: flex;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vw;
+    color: #533363;
+    padding: 0 5%;
+    margin-left: 20%;
+    }
+
+ul{
+    text-align: center;
+}
+
+.navbar {
+    display: inline;
+    padding: 12px;
+    color: #533363;
+    font-family: "Arima", system-ui;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    align-items: center;
+}
+
+footer a{
+    padding-left: 2%;
+    height: 36px;
+    width: 36px;
+}
